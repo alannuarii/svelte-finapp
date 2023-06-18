@@ -12,7 +12,7 @@
 		<h5 class="offcanvas-title" id="offcanvasBottomLabel">{title}</h5>
 		<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close" />
 	</div>
-	<div class="offcanvas-body small">
+	<div class="offcanvas-body">
 		<form method="POST">
 			<div class="mb-3">
 				<label for="exampleFormControlInput1" class="form-label">Tanggal</label>
@@ -35,7 +35,7 @@
 
 <style>
 	.offcanvas {
-		height: 70vh;
+		height: 600px;
 	}
 	.btn {
 		background-color: #38a3a5;
