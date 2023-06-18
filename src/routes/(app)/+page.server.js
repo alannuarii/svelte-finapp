@@ -15,7 +15,7 @@ export const actions = {
 			parsedData[name] = value;
 		}
 
-		const res = await fetch('http://127.0.0.1:3333/insert', {
+		const res = await fetch('https://finapp.anpy.my.id/insert', {
 			method: 'POST',
 			body: JSON.stringify(parsedData),
 			headers: {
