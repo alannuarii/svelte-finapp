@@ -29,8 +29,8 @@ export const actions = {
 
 export const load = async () => {
 	const [res1, res2] = await Promise.all([
-		fetch('http://127.0.0.1:3333/getthismonth').then((res) => res.json()),
-		fetch('http://127.0.0.1:3333/getbeforemonth').then((res) => res.json())
+		fetch('https://finapp.anpy.my.id/getthismonth').then((res) => res.json()),
+		fetch('https://finapp.anpy.my.id/getbeforemonth').then((res) => res.json())
 	]);
 
 	return {
