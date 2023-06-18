@@ -35,11 +35,12 @@
 
 <style>
 	.offcanvas {
-		height: 400px;
+		height: 70vh;
 	}
 	.btn {
 		background-color: #38a3a5;
 		color: #ffffff;
+		border-color: #38a3a5;
 	}
 	h5 {
 		color: #38a3a5;
