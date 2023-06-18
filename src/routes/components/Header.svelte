@@ -16,6 +16,7 @@
 		height: 70px;
 		border-radius: 0 0 0 30px;
 		background-color: #38a3a5;
+		border-bottom: 7px solid #57cc99;
 	}
 	button:nth-child(2) {
 		/* border-color: #57cc99; */

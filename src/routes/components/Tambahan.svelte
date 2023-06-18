@@ -35,7 +35,9 @@
 
 <style>
 	.offcanvas {
-		height: 600px;
+		height: 350px;
+		border-radius: 30px 30px 0 0;
+		border-top: 7px solid #38a3a5;
 	}
 	.btn {
 		background-color: #38a3a5;

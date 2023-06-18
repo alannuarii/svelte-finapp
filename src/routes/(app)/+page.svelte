@@ -63,6 +63,7 @@
 						type="text"
 						class="form-control form-control-sm"
 						value="Rp {prevSaldo.toLocaleString()}"
+						disabled
 					/>
 				</div>
 			</div>
@@ -74,6 +75,7 @@
 						type="text"
 						class="form-control form-control-sm"
 						value="Rp {totPenarikan.toLocaleString()}"
+						disabled
 					/>
 				</div>
 			</div>
@@ -85,6 +87,7 @@
 						type="text"
 						class="form-control form-control-sm"
 						value="Rp {Math.abs(totPengeluaran).toLocaleString()}"
+						disabled
 					/>
 				</div>
 			</div>
@@ -96,6 +99,7 @@
 						type="text"
 						class="form-control form-control-sm"
 						value="Rp {danaTambahan.toLocaleString()}"
+						disabled
 					/>
 				</div>
 			</div>
@@ -107,6 +111,7 @@
 						type="text"
 						class="form-control form-control-sm"
 						value="Rp {saldo.toLocaleString()}"
+						disabled
 					/>
 				</div>
 			</div>
@@ -207,5 +212,6 @@
 	input {
 		color: #22577a;
 		border-color: #80ed99;
+		background-color: #ffffff;
 	}
 </style>
