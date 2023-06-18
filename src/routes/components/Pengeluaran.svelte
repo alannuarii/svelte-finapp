@@ -38,7 +38,7 @@
 
 <style>
 	.offcanvas {
-		height: 350px;
+		height: 500px;
 		border-radius: 30px 30px 0 0;
 		border-top: 7px solid #38a3a5;
 	}
