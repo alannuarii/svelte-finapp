@@ -14,7 +14,7 @@
 	<div class="modal-dialog modal-dialog-centered">
 		<div class="modal-content bg-transparent border border-0">
 			<div class="modal-body d-flex justify-content-center">
-				<div>
+				<div class="d-flex justify-content-between">
 					<button type="button" class="btn" data-bs-toggle="offcanvas" data-bs-target="#penarikan"
 						><div class="d-flex flex-column justify-content-center align-items-center">
 							<i class="bi-cash-coin" /><span>Penarikan</span>
