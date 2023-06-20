@@ -3,7 +3,7 @@
 </script>
 
 <div
-	class="offcanvas offcanvas-bottom"
+	class="offcanvas offcanvas-end"
 	tabindex="-1"
 	id="tambahan"
 	aria-labelledby="offcanvasBottomLabel"
@@ -35,9 +35,8 @@
 
 <style>
 	.offcanvas {
-		height: 500px;
-		border-radius: 30px 30px 0 0;
-		border-top: 7px solid #38a3a5;
+		border-radius: 50px 0 0 300px;
+		border-left: 7px solid #38a3a5;
 	}
 	.btn {
 		background-color: #38a3a5;
