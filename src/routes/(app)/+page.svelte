@@ -128,9 +128,12 @@
 					{#if data.tarik === 1}
 						<tr class="align-middle">
 							<td class="item text-start">
-								<div class="d-flex flex-column align-items-start">
-									<span class="badge bg-success-subtle">{convertDate(data.tanggal)}</span>
-									<h6>{data.item_keluar}</h6>
+								<div class="d-flex justify-content-between align-items-center">
+									<div class="d-flex flex-column align-items-start">
+										<span class="badge bg-success-subtle">{convertDate(data.tanggal)}</span>
+										<h6>{data.item_keluar}</h6>
+									</div>
+									<div class="me-2"><i class="bi-x-circle-fill text-danger btn" /></div>
 								</div>
 							</td>
 							<td class="value text-end text-success">{data.nilai.toLocaleString()}</td>
@@ -138,9 +141,12 @@
 					{:else if data.keluar === 1}
 						<tr class="align-middle">
 							<td class="item text-start">
-								<div class="d-flex flex-column align-items-start">
-									<span class="badge bg-danger-subtle">{convertDate(data.tanggal)}</span>
-									<h6>{data.item_keluar}</h6>
+								<div class="d-flex justify-content-between align-items-center">
+									<div class="d-flex flex-column align-items-start">
+										<span class="badge bg-danger-subtle">{convertDate(data.tanggal)}</span>
+										<h6>{data.item_keluar}</h6>
+									</div>
+									<div class="me-2"><i class="bi-x-circle-fill text-danger btn" /></div>
 								</div>
 							</td>
 							<td class="value text-end text-danger">{data.nilai.toLocaleString()}</td>
@@ -148,9 +154,12 @@
 					{:else}
 						<tr class="align-middle">
 							<td class="item text-start">
-								<div class="d-flex flex-column align-items-start">
-									<span class="badge bg-primary-subtle">{convertDate(data.tanggal)}</span>
-									<h6>{data.item_keluar}</h6>
+								<div class="d-flex justify-content-between align-items-center">
+									<div class="d-flex flex-column align-items-start">
+										<span class="badge bg-primary-subtle">{convertDate(data.tanggal)}</span>
+										<h6>{data.item_keluar}</h6>
+									</div>
+									<div class="me-2"><i class="bi-x-circle-fill text-danger btn" /></div>
 								</div>
 							</td>
 							<td class="value text-end text-success">{data.nilai.toLocaleString()}</td>
@@ -213,5 +222,8 @@
 		color: #22577a;
 		border-color: #80ed99;
 		background-color: #ffffff;
+	}
+	.btn {
+		border: 0;
 	}
 </style>
