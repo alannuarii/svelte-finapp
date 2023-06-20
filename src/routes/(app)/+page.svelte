@@ -133,7 +133,7 @@
 										<span class="badge bg-success-subtle">{convertDate(data.tanggal)}</span>
 										<h6>{data.item_keluar}</h6>
 									</div>
-									<div><i class="bi-x-circle-fill text-danger btn" /></div>
+									<div><i class="bi-x text-danger btn" /></div>
 								</div>
 							</td>
 							<td class="value text-end text-success">{data.nilai.toLocaleString()}</td>
@@ -146,7 +146,7 @@
 										<span class="badge bg-danger-subtle">{convertDate(data.tanggal)}</span>
 										<h6>{data.item_keluar}</h6>
 									</div>
-									<div><i class="bi-x-circle-fill text-danger btn" /></div>
+									<div><i class="bi-x text-danger btn" /></div>
 								</div>
 							</td>
 							<td class="value text-end text-danger">{data.nilai.toLocaleString()}</td>
@@ -159,7 +159,7 @@
 										<span class="badge bg-primary-subtle">{convertDate(data.tanggal)}</span>
 										<h6>{data.item_keluar}</h6>
 									</div>
-									<div><i class="bi-x-circle-fill text-danger btn" /></div>
+									<div><i class="bi-x text-danger btn" /></div>
 								</div>
 							</td>
 							<td class="value text-end text-success">{data.nilai.toLocaleString()}</td>
