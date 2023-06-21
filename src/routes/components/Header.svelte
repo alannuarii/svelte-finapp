@@ -4,7 +4,7 @@
 
 <nav class="navbar shadow">
 	<div class="container-fluid">
-		<span class="navbar-brand h1 text-light ms-3">Monitoring Anggaran</span>
+		<span class="navbar-brand h1 text-light ms-3">Financial App</span>
 		<button class="btn btn-sm">Riwayat</button>
 		<button class="btn btn-sm" data-bs-toggle="modal" data-bs-target="#menu">Input</button>
 		<Menu />
@@ -21,7 +21,7 @@
 	button:nth-child(2) {
 		/* border-color: #57cc99; */
 		color: #ffffff;
-		margin-right: -10px;
+		margin-right: -80px;
 	}
 	button:nth-child(3) {
 		background-color: #57cc99;
