@@ -9,7 +9,7 @@
 
 <div id="master" class="d-sm-none">
 	<Header />
-	<main class="py-4 px-3">
+	<main class="py-3 px-3">
 		<slot />
 	</main>
 </div>

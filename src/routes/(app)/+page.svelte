@@ -1,6 +1,7 @@
 <script>
 	import { convertDate } from '../../lib/js/date';
 	import ModalDelete from '../components/ModalDelete.svelte';
+	import Timer from '../components/Timer.svelte';
 
 	export let data;
 	let dataBulanIni = data.data1.data;
@@ -55,6 +56,9 @@
 	{#if dataBulanIni.length === 0}
 		<p>Data kosong</p>
 	{:else}
+		<div>
+			<Timer />
+		</div>
 		<div class="mb-3">
 			<div class="row mb-1">
 				<!-- svelte-ignore a11y-label-has-associated-control -->
