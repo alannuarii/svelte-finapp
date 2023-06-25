@@ -20,7 +20,7 @@
 			</div>
 			<div class="mb-4">
 				<label for="exampleFormControlInput1" class="form-label">Nilai (Rp)</label>
-				<input type="text" class="form-control" name="nilai" />
+				<input type="number" class="form-control" name="nilai" />
 			</div>
 			<div>
 				<input type="hidden" class="form-control" name="item" value="Dana Tambahan" />
