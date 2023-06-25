@@ -18,14 +18,34 @@
 				<label for="exampleFormControlInput1" class="form-label">Tanggal</label>
 				<input type="date" class="form-control" name="tanggal" />
 			</div>
+			<div class="mb-3">
+				<div class="form-check">
+					<input
+						class="form-check-input"
+						type="radio"
+						name="item"
+						id="flexRadioDefault1"
+						value="Penarikan ATM"
+					/>
+					<label class="form-check-label" for="flexRadioDefault1"> ATM </label>
+				</div>
+				<div class="form-check">
+					<input
+						class="form-check-input"
+						type="radio"
+						name="item"
+						id="flexRadioDefault2"
+						value="Dana Lain-lain"
+					/>
+					<label class="form-check-label" for="flexRadioDefault2"> Lain-lain </label>
+				</div>
+			</div>
 			<div class="mb-4">
 				<label for="exampleFormControlInput1" class="form-label">Nilai (Rp)</label>
 				<input type="number" class="form-control" name="nilai" />
 			</div>
 			<div>
-				<input type="hidden" class="form-control" name="item" value="Penarikan" />
 				<input type="hidden" class="form-control" name="tarik" value="1" />
-				<input type="hidden" class="form-control" name="extra" value="0" />
 				<input type="hidden" class="form-control" name="keluar" value="0" />
 				<button class="btn w-25" type="submit">Submit</button>
 			</div>

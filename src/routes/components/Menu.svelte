@@ -1,7 +1,6 @@
 <script>
 	import Pengeluaran from './Pengeluaran.svelte';
 	import Penarikan from './Penarikan.svelte';
-	import Tambahan from './Tambahan.svelte';
 </script>
 
 <div
@@ -17,22 +16,16 @@
 				<div class="d-flex justify-content-between">
 					<button type="button" class="btn" data-bs-toggle="offcanvas" data-bs-target="#penarikan"
 						><div class="d-flex flex-column justify-content-center align-items-center">
-							<i class="bi-cash-coin" /><span>Penarikan</span>
+							<i class="bi-plus-lg" /><span>Penarikan</span>
 						</div></button
 					>
-					<Penarikan title="Data Penarikan" />
+					<Penarikan title="Data Pemasukan" />
 					<button type="button" class="btn" data-bs-toggle="offcanvas" data-bs-target="#pengeluaran"
 						><div class="d-flex flex-column justify-content-center align-items-center">
 							<i class="bi-dash-lg" /><span>Pengeluaran</span>
 						</div></button
 					>
 					<Pengeluaran title="Data Pengeluaran" />
-					<button type="button" class="btn" data-bs-toggle="offcanvas" data-bs-target="#tambahan"
-						><div class="d-flex flex-column justify-content-center align-items-center">
-							<i class="bi-plus-lg" /><span>Tambahan</span>
-						</div></button
-					>
-					<Tambahan title="Data Dana Tambahan" />
 				</div>
 			</div>
 		</div>
@@ -50,11 +43,6 @@
 		border-color: #ef476f;
 		color: #ffffff;
 	}
-	button:nth-child(5) {
-		background-color: #118ab2;
-		border-color: #118ab2;
-		color: #ffffff;
-	}
 	i {
 		font-size: 30px;
 	}
@@ -62,7 +50,7 @@
 		font-size: 10px;
 	}
 	button {
-		width: 30%;
+		width: 45%;
 		border-radius: 15px;
 	}
 </style>

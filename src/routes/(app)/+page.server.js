@@ -5,12 +5,11 @@ export const actions = {
 		const formData = new FormData();
 		formData.append('tanggal', data.get('tanggal'));
 		formData.append('tarik', data.get('tarik'));
-		formData.append('extra', data.get('extra'));
 		formData.append('keluar', data.get('keluar'));
 		formData.append('item', data.get('item'));
+		formData.append('online', data.get('online'));
 		formData.append('nilai', data.get('nilai'));
 		formData.append('id', data.get('id'));
-
 		const parsedData = {};
 		for await (const [name, value] of formData.entries()) {
 			parsedData[name] = value;

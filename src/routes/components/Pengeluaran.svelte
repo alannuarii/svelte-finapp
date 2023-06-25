@@ -21,6 +21,18 @@
 			<div class="mb-3">
 				<label for="exampleFormControlInput1" class="form-label">Pembelian / Pengeluaran</label>
 				<input type="text" class="form-control" name="item" />
+				<div class="form-check mt-1">
+					<input
+						class="form-check-input"
+						type="checkbox"
+						name="online"
+						value="1"
+						id="flexCheckDefault"
+					/>
+					<label class="form-check-label fst-italic" for="flexCheckDefault">
+						Centang jika pembelian online
+					</label>
+				</div>
 			</div>
 			<div class="mb-4">
 				<label for="exampleFormControlInput1" class="form-label">Nilai (Rp)</label>
@@ -28,7 +40,6 @@
 			</div>
 			<div>
 				<input type="hidden" class="form-control" name="tarik" value="0" />
-				<input type="hidden" class="form-control" name="extra" value="0" />
 				<input type="hidden" class="form-control" name="keluar" value="1" />
 				<button class="btn btn-primary w-25" type="submit">Submit</button>
 			</div>
