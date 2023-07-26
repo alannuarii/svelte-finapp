@@ -1,5 +1,5 @@
 <script>
-	import { convertDate } from '../../lib/js/date';
+	import { date } from '../../lib/js/date';
 	import ModalDelete from '../components/ModalDelete.svelte';
 	import Timer from '../components/Timer.svelte';
 
@@ -114,7 +114,7 @@
 							<td class="item text-start">
 								<div class="d-flex justify-content-between align-items-center">
 									<div class="d-flex flex-column align-items-start">
-										<span class="badge bg-success-subtle">{convertDate(data.tanggal)}</span>
+										<span class="badge bg-success-subtle">{date(data.tanggal)}</span>
 										<h6>{data.item_keluar}</h6>
 									</div>
 									<div>
@@ -133,7 +133,7 @@
 							<td class="item text-start">
 								<div class="d-flex justify-content-between align-items-center">
 									<div class="d-flex flex-column align-items-start">
-										<span class="badge bg-danger-subtle">{convertDate(data.tanggal)}</span>
+										<span class="badge bg-danger-subtle">{date(data.tanggal)}</span>
 										<h6>{data.item_keluar}</h6>
 									</div>
 									<div>
